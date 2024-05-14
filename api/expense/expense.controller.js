@@ -46,10 +46,11 @@ export async function getExpenses(req, res) {
         const filterBy = {
             txt: req.query.txt || '',
             category: req.query.category || '',
-            startDate: req.query.startDate || ''
+            startDate: req.query.startDate || '',
+            endDate: req.query.endDate || ''
         }
         const expenses = await expenseService.query(filterBy)
-        logger.debug('Got Expenses', filterBy, expenses.length)
+        logger.debug('Serving Expenses', filterBy, expenses.length)
         res.json(expenses)
     } catch (err) {
         logger.error('Failed to get expenses', err)

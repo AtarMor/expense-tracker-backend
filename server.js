@@ -30,7 +30,9 @@ import { userRoutes } from './api/user/user.routes.js'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { logger } from './services/logger.service.js'
 import { setupSocketAPI } from './socket.service.js'
+import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 
+app.all('*', setupAsyncLocalStorage)
 app.use('/api/expense', expenseRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/auth', authRoutes)
