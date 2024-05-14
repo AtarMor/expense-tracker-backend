@@ -14,25 +14,17 @@ export const expenseService = {
 
 async function query(filterBy) {
     try {
-        const criteriaEmptyCategory = {
+        const criteria = {
             $or: [
                 { description: { $regex: filterBy.txt, $options: 'i' } },
-                { category: { $regex: filterBy.txt, $options: 'i' } }
+                { category: { $regex: filterBy.txt, $options: 'i' }}
             ],
-            date: { $regex: filterBy.date, $options: 'i' },
-        }
-
-        const criteria = {
             category: { $regex: filterBy.category, $options: 'i' },
-            description: { $regex: filterBy.txt, $options: 'i' },
             date: { $regex: filterBy.date, $options: 'i' },
         }
-
-        const criteriaToSend = filterBy.category === '' ? criteriaEmptyCategory : criteria
-        logger.info('criteriaToSend', criteriaToSend)
 
         const collection = await dbService.getCollection('expense')
-        var expenses = await collection.find(criteriaToSend).toArray()
+        var expenses = await collection.find(criteria).toArray()
         return expenses
     } catch (err) {
         logger.error('cannot find expenses', err)

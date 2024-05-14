@@ -27,9 +27,17 @@ function isValidCategory(category) {
     return allowedCategories.some((x) => x === category)
 }
 
+function isValidAmount(amount) {
+    return amount >= 0
+}
+
 function validateExpense(inputExpense) {
     if (!isValidCategory(inputExpense.category)) {
         throw new Error("category is not allowed")
+    }
+
+    if (!isValidAmount(inputExpense.amount)) {
+        throw new Error("amount cannot be negativ")
     }
 }
 
