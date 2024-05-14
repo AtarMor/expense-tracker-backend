@@ -26,12 +26,13 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 import { expenseRoutes } from './api/expense/expense.routes.js'
-
-// routes
-import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
-app.all('*', setupAsyncLocalStorage)
+import { userRoutes } from './api/user/user.routes.js'
+import { authRoutes } from './api/auth/auth.routes.js'
 
 app.use('/api/expense', expenseRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/auth', authRoutes)
+
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030

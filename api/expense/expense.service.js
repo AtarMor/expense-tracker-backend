@@ -20,7 +20,7 @@ async function query(filterBy) {
                 { category: { $regex: filterBy.txt, $options: 'i' }}
             ],
             category: { $regex: filterBy.category, $options: 'i' },
-            date: { $regex: filterBy.date, $options: 'i' },
+            date: { $gte: filterBy.startDate },
         }
 
         const collection = await dbService.getCollection('expense')

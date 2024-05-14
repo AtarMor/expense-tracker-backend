@@ -1,0 +1,14 @@
+[
+            {
+                "username": "Atar Mor",
+                "password": "atar",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+                "username": "John Doe",
+                "password": "john",
+                "fullName": "John Doe",
+                "imgUrl": ""
+            }
+        ]
