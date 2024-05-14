@@ -5,7 +5,7 @@ import { requireAuth } from '../../middlewares/requireAuth.middleware.js'
 
 export const expenseRoutes = express.Router()
 
-expenseRoutes.get('/', log, requireAuth, getExpenses)
+expenseRoutes.get('/', requireAuth, getExpenses)
 expenseRoutes.get('/:id', requireAuth, getExpenseById)
 expenseRoutes.post('/', requireAuth, addExpense)
 expenseRoutes.put('/:id', requireAuth, updateExpense)
