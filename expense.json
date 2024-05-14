@@ -1,0 +1,32 @@
+[
+    {
+        "amount": 50.00,
+        "category": "Food",
+        "date": "2024-05-13",
+        "description": "Lunch with friends"
+    },
+    {
+        "amount": 25.00,
+        "category": "Transportation",
+        "date": "2024-05-12",
+        "description": "Taxi fare"
+    },
+    {
+        "amount": 100.00,
+        "category": "Entertainment",
+        "date": "2024-05-11",
+        "description": "Concert tickets"
+    },
+    {
+        "amount": 35.00,
+        "category": "Shopping",
+        "date": "2024-05-10",
+        "description": "New shoes"
+    },
+    {
+        "amount": 75.00,
+        "category": "Utilities",
+        "date": "2024-05-09",
+        "description": "Electricity bill"
+    }
+]
