@@ -15,7 +15,7 @@ export const expenseService = {
 
 function getOwner() {
     const { loggedinUser } = asyncLocalStorage.getStore()
-    return loggedinUser.fullName
+    return loggedinUser.username
 }
 
 async function query(filterBy) {

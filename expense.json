@@ -1,32 +1,212 @@
 [
     {
-        "amount": 50.00,
+        "amount": 250.00,
         "category": "Food",
-        "date": "2024-05-13",
-        "description": "Lunch with friends"
+        "date": "2023-06-01",
+        "description": "Dinner with family",
+        "owner": "Atar Mor"
     },
     {
-        "amount": 25.00,
+        "amount": 60.00,
+        "category": "Utilities",
+        "date": "2023-07-12",
+        "description": "Electricity bill payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 150.00,
         "category": "Transportation",
-        "date": "2024-05-12",
-        "description": "Taxi fare"
+        "date": "2023-08-25",
+        "description": "Monthly bus pass",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 30.00,
+        "category": "Entertainment",
+        "date": "2023-09-05",
+        "description": "Movie tickets",
+        "owner": "Atar Mor"
     },
     {
         "amount": 100.00,
-        "category": "Entertainment",
-        "date": "2024-05-11",
-        "description": "Concert tickets"
+        "category": "Clothing",
+        "date": "2023-10-18",
+        "description": "New pair of shoes",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 75.00,
+        "category": "Healthcare",
+        "date": "2023-11-10",
+        "description": "Doctor's visit",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 800.00,
+        "category": "Rent/Mortgage",
+        "date": "2023-12-22",
+        "description": "Monthly rent payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 45.00,
+        "category": "Insurance",
+        "date": "2024-01-03",
+        "description": "Car insurance",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 200.00,
+        "category": "Education",
+        "date": "2024-02-14",
+        "description": "Textbooks purchase",
+        "owner": "Atar Mor"
     },
     {
         "amount": 35.00,
         "category": "Shopping",
-        "date": "2024-05-10",
-        "description": "New shoes"
+        "date": "2024-03-26",
+        "description": "Grocery shopping",
+        "owner": "Atar Mor"
     },
     {
-        "amount": 75.00,
+        "amount": 70.00,
+        "category": "Food",
+        "date": "2024-04-09",
+        "description": "Brunch with friends",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 45.00,
         "category": "Utilities",
-        "date": "2024-05-09",
-        "description": "Electricity bill"
+        "date": "2024-05-21",
+        "description": "Water bill payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 300.00,
+        "category": "Transportation",
+        "date": "2024-06-03",
+        "description": "Flight ticket",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 20.00,
+        "category": "Entertainment",
+        "date": "2024-07-15",
+        "description": "Concert tickets",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 90.00,
+        "category": "Clothing",
+        "date": "2024-08-28",
+        "description": "Summer clothes shopping",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 60.00,
+        "category": "Healthcare",
+        "date": "2024-09-09",
+        "description": "Dental check-up",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 750.00,
+        "category": "Rent/Mortgage",
+        "date": "2024-10-22",
+        "description": "Monthly mortgage payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 40.00,
+        "category": "Insurance",
+        "date": "2024-11-05",
+        "description": "Home insurance",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 180.00,
+        "category": "Education",
+        "date": "2024-12-17",
+        "description": "Online course fee",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 25.00,
+        "category": "Shopping",
+        "date": "2025-01-30",
+        "description": "Gift shopping",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 50.00,
+        "category": "Food",
+        "date": "2025-02-12",
+        "description": "Dinner with colleagues",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 55.00,
+        "category": "Utilities",
+        "date": "2025-03-24",
+        "description": "Gas bill payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 200.00,
+        "category": "Transportation",
+        "date": "2025-04-07",
+        "description": "Car repair",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 15.00,
+        "category": "Entertainment",
+        "date": "2025-05-19",
+        "description": "Streaming subscription",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 85.00,
+        "category": "Clothing",
+        "date": "2025-06-01",
+        "description": "New dress",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 65.00,
+        "category": "Healthcare",
+        "date": "2025-07-14",
+        "description": "Prescription medicines",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 780.00,
+        "category": "Rent/Mortgage",
+        "date": "2025-08-26",
+        "description": "Monthly rent payment",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 35.00,
+        "category": "Insurance",
+        "date": "2025-09-08",
+        "description": "Life insurance premium",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 250.00,
+        "category": "Education",
+        "date": "2025-10-20",
+        "description": "Semester tuition fee",
+        "owner": "Atar Mor"
+    },
+    {
+        "amount": 45.00,
+        "category": "Shopping",
+        "date": "2025-11-03",
+        "description": "Online shopping",
+        "owner": "Atar Mor"
     }
 ]
